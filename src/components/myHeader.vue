@@ -23,7 +23,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#">Skill</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
@@ -55,7 +55,7 @@ export default {
 }
 .nav-link {
   color: white !important;
-  font-size: 24px !important;
+  font-size: 20px !important;
 }
 
 .navbar-toggler-icon {

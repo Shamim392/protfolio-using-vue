@@ -1,43 +1,21 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1>LET ME <span className="purple"> INTRODUCE </span> MYSELF</h1>
-        <p className="home-about-body">
-          I fell in love with programming and I have at least learnt something,
-          I think… 🤷‍♂️
-          <br />
-          <br />I am fluent in classics like
-          <i>
-            <b className="purple"> C, C++ and Javascript. </b>
-          </i>
-          <br />
-          <br />
-          My field of Interest's are building new &nbsp;
-          <i>
-            <b className="purple">Web Technologies and Products </b> and also in
-            areas related to{" "}
-            <b className="purple">
-              Deep Learning and Natural Launguage Processing.
-            </b>
-          </i>
-          <br />
-          <br />
-          Whenever possible, I also apply my passion for developing products
-          with <b className="purple">Node.js</b> and
-          <i>
-            <b className="purple">
-              {" "} Modern Javascript Library and Frameworks
-            </b>
-          </i>
-          &nbsp; like
-          <i>
-            <b className="purple"> React.js</b>
-          </i>
+  <div class="container-fluid introDiv">
+    <div class="row intro">
+      <h1 class="introHeading">LET ME INTRODUCE MYSELF</h1>
+      <div class="col intro-details">
+        <p>
+          Hello! I'm Shaminur Rahaman Shamim. I'm a front end web developer
+          based in Dhaka,Bangladesh. During the day I work as a Front end
+          developer kajkam initiative ltd. and in the evening I work on
+          freelance projects and utilize the time to built my own products. I
+          spent my leisure hours reading books. Right now I'm also trying a hand
+          at Javascript and React JS. I love to learn and explore new areas.
         </p>
       </div>
-      <div class="col">
-        <img src="../assets/myImg.png" className="img-fluid" alt="avatar" />
+      <div class="col imgDiv">
+        <div>
+          <img src="../assets/myImg.png" class="image" alt="avatar" />
+        </div>
       </div>
     </div>
   </div>
@@ -50,22 +28,43 @@ export default {
 </script>
 
 <style>
-.home-about-section {
+.introDiv {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  background-color: #111a28;
+  color: white;
+  /* padding-top: 100px; */
+}
+.intro {
+  padding-right: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.home-about-description {
-  divor: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+.introHeading {
+  color: #00cf5d;
   text-align: center;
+  padding-left: 80px;
+  font-weight: bold;
+}
+.intro-details {
+  padding-left: 80px;
+  padding-top: 80px;
+  font-size: 18px;
+  text-align: left;
+  line-height: 2;
 }
 
-.home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
+.image {
+  margin-top: 60px;
+  margin-left: 100px;
+  width: 50%;
+  border-radius: 10px;
+  transform: scale(0.95);
+  filter: grayscale(1);
+  transition: 1s all;
+}
+.image:hover {
+  transform: scale(1);
+  filter: grayscale(0);
 }
 </style>
