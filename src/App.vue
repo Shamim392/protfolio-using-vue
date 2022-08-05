@@ -7,12 +7,14 @@ import NotFound from "./components/notFound.vue";
 import myHeader from "./components/myHeader.vue";
 import myProjects from "./components/myProjects.vue";
 import myFooter from "./components/myFooter.vue";
+import myAchievement from "./components/myAchievement.vue";
 
 const routes = {
   "/": myHome,
   "/about": myIntro,
   "/skill": mySkill,
   "/project": myProjects,
+  "/achievement": myAchievement,
 };
 
 const currentPath = ref(window.location.hash);

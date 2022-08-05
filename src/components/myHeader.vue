@@ -33,7 +33,7 @@
             <a class="nav-link" href="#/project">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/project">Blog</a>
+            <a class="nav-link" href="#">Blog</a>
           </li>
         </ul>
       </div>
