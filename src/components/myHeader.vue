@@ -12,9 +12,9 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a class="navbar-brand" href="#">Shamim</a>
-        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
