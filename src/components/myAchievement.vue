@@ -1,6 +1,6 @@
 <template>
   <div class="achievementDiv">
-    <h1 class="achievementHeading">My Achievement</h1>
+    <h1 class="achievementHeading">My <span>Achievement</span></h1>
     <div class="row rowAchievement">
       <div class="col col-md-12 col-xl-6">
         <div class="achievement">
@@ -104,7 +104,7 @@ export default {
   padding-top: 15px;
 }
 .achievementHeading {
-  margin-left: 35px;
+  text-align: center;
   padding-bottom: 15px;
 }
 .rowAchievement {

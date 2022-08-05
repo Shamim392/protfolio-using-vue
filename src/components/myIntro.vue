@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid introDiv">
     <div class="row intro">
-      <p class="introHeading">LET ME INTRODUCE MYSELF</p>
+      <p class="introHeading">LET ME INTRODUCE <span>MYSELF</span></p>
       <div class="col intro-details">
         <p>
           Hello! I'm Shaminur Rahaman Shamim. I'm a front end web developer
@@ -41,7 +41,7 @@ export default {
 }
 
 .introHeading {
-  color: #00cf5d;
+  /* color: #00cf5d; */
   text-align: center;
   padding-left: 80px;
   font-weight: bold;

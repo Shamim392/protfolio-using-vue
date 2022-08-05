@@ -1,41 +1,40 @@
 <template>
   <div class="sticky-top">
     <nav class="navbar navbar-expand-lg bgColor">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse mt-2 mb-2" id="navbarTogglerDemo01">
-        <!-- <img src="../assets/logo.png" className="logo" alt="brand" /> -->
-        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#/about">About</a>
-          </li>
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <!-- <img src="../assets/logo.png" className="logo" alt="brand" /> -->
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#/about">About</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#/skill">Skill</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#/skill">Skill</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#/achievement">Achievement</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#/project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#/achievement">Achievement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#/project">Projects</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
@@ -56,9 +55,6 @@ export default {
 }
 .navbar-toggler {
   color: none !important;
-}
-.navbar-toggler {
-  border: 2px solid white !important;
 }
 
 .navbar-brand {
