@@ -5,7 +5,7 @@
       <div class="col col-md-12 col-xl-6">
         <div class="achievement">
           <div class="icon">
-            <i class="iconShape fa-solid fa-graduation-cap"></i>
+            <i class="fa-solid fa-graduation-cap"></i>
           </div>
           <div class="">
             <p class="year">2009 - 2014</p>
@@ -18,7 +18,7 @@
         </div>
         <div class="achievement">
           <div class="icon">
-            <i class="iconShape fa-solid fa-graduation-cap"></i>
+            <i class="fa-solid fa-graduation-cap"></i>
           </div>
           <div class="">
             <p class="year">2014 - 2016</p>
@@ -31,7 +31,7 @@
         </div>
         <div class="achievement">
           <div class="icon">
-            <i class="iconShape fa-solid fa-graduation-cap"></i>
+            <i class="fa-solid fa-graduation-cap"></i>
           </div>
           <div class="">
             <p class="year">2018 - 2022</p>
@@ -49,7 +49,7 @@
       <div class="col col-md-12 col-xl-6">
         <div class="achievement">
           <div class="icon">
-            <i class="iconShape fa-solid fa-graduation-cap"></i>
+            <i class="fa-duotone fa-hashtag iconShape"></i>
           </div>
           <div class="">
             <p class="year">2019 - 2020</p>
@@ -62,7 +62,7 @@
         </div>
         <div class="achievement">
           <div class="icon">
-            <i class="iconShape fa-solid fa-graduation-cap"></i>
+            <i class="fa-solid fa-code iconShape"></i>
           </div>
           <div class="">
             <p class="year">20019 - 2020</p>
@@ -75,7 +75,7 @@
         </div>
         <div class="achievement">
           <div class="icon">
-            <i class="iconShape fa-solid fa-graduation-cap"></i>
+            <i class="fa-solid fa-circle-question iconShape"></i>
           </div>
           <div class="">
             <p class="year">2021 - 2022</p>
@@ -132,6 +132,9 @@ export default {
   font-size: 45px;
   margin-left: -50px;
   margin-top: -45px;
+}
+.iconShape {
+  font-weight: bold;
 }
 
 .year {
