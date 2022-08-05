@@ -4,31 +4,31 @@
       <h1>Professional <span class="skill">Skills</span></h1>
     </div>
     <div class="row skillRow">
-      <div class="col col-xl-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-light fa-c"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-light fa-c"></i>++
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-square-js"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-node"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-react"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-html5"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-css3-alt"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-bootstrap"></i>
       </div>
-      <div class="col col-xl-2 col-md-3 col-xs-2 tech-icons">
+      <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 tech-icons">
         <i class="fa-brands fa-github"></i>
       </div>
     </div>

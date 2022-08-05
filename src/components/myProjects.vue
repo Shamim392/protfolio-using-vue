@@ -2,7 +2,7 @@
   <div class="container-fluid projetDiv">
     <h1 class="proHeading">My Recent <span>Works</span></h1>
     <div class="row projectRow">
-      <div class="col-6 col-md-4 projectCard">
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4 projectCard">
         <div class="card" style="width: 18rem">
           <img
             class="card-img-top"
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-4">
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
         <div class="card" style="width: 18rem">
           <img
             class="card-img-top"
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-4">
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
         <div class="card" style="width: 18rem">
           <img
             class="card-img-top"
@@ -120,5 +120,30 @@ span {
   color: white;
   text-decoration: none;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .projectRow {
+    justify-content: space-between;
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .projectRow {
+    justify-content: space-between !important;
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .projectRow {
+    justify-content: space-between !important;
+  }
+  .card {
+    margin-bottom: 40px;
+  }
 }
 </style>

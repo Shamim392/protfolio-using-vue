@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid introDiv">
     <div class="row intro">
-      <h1 class="introHeading">LET ME INTRODUCE MYSELF</h1>
+      <p class="introHeading">LET ME INTRODUCE MYSELF</p>
       <div class="col intro-details">
         <p>
           Hello! I'm Shaminur Rahaman Shamim. I'm a front end web developer
@@ -45,6 +45,7 @@ export default {
   text-align: center;
   padding-left: 80px;
   font-weight: bold;
+  font-size: 42px;
 }
 .intro-details {
   padding-left: 80px;
@@ -66,5 +67,57 @@ export default {
 .image:hover {
   transform: scale(1);
   filter: grayscale(0);
+}
+
+/* @media only screen and (max-width: 991px) {
+  .introHeading {
+    font-size: 42px;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 10px; */
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .introHeading {
+    font-size: 28px !important;
+  }
+  .intro-details {
+    padding-top: 40px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2;
+  }
+
+  .image {
+    display: block;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 10px; */
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .introHeading {
+    font-size: 20px !important;
+  }
+  .intro-details {
+    padding-top: 40px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2;
+  }
+
+  .image {
+    display: block;
+    margin: auto;
+  }
 }
 </style>

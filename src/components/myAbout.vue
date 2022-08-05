@@ -95,7 +95,7 @@ ul li:first-child:before {
 }
 @media only screen and (max-width: 991px) {
   .heading-name {
-    font-size: 62px;
+    font-size: 52px !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -107,7 +107,7 @@ ul li:first-child:before {
     font-size: 18px;
   }
   .heading-name {
-    font-size: 50px;
+    font-size: 50px !important;
   }
   h3 {
     font-size: 22px;
@@ -120,27 +120,21 @@ ul li:first-child:before {
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   .heading {
     font-size: 16px;
   }
 
   .heading-name {
-    font-size: 36px;
+    font-size: 36px !important;
   }
 
   .h3 {
     font-size: 20px;
   }
-  ul {
-    justify-content: center;
-    margin-left: 15px;
-  }
 
   ul li {
-    font-size: 12px;
-    /* margin-right: 0; */
-    /* justify-content: center; */
+    font-size: 14px;
   }
 
   ul li:before {
@@ -168,28 +162,5 @@ ul li:first-child:before {
   background-color: #111a28;
   color: white;
   border: 2px solid #4caf50;
-}
-@media only screen and (max-width: 481px) {
-  .btn-div {
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  .button {
-    padding: 7px 10px 7px 10px;
-    border: none;
-    border-radius: 4px;
-    margin-right: 25px;
-    margin-top: 10px;
-  }
-  .button1 {
-    background-color: #111a28;
-    color: white;
-    border: 1px solid #4caf50;
-  }
-
-  .button1:hover {
-    background-color: #4caf50;
-    color: white;
-  }
 }
 </style>

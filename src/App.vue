@@ -6,6 +6,7 @@ import mySkill from "./components/mySkill";
 import NotFound from "./components/notFound.vue";
 import myHeader from "./components/myHeader.vue";
 import myProjects from "./components/myProjects.vue";
+import myFooter from "./components/myFooter.vue";
 
 const routes = {
   "/": myHome,
@@ -27,7 +28,6 @@ const currentView = computed(() => {
 
 <template>
   <myHeader />
-  <!-- <a href="#/">Home</a> | <a href="#/about">About</a> |
-  <a href="#/non-existent-path">Broken Link</a> -->
   <component :is="currentView" />
+  <myFooter />
 </template>

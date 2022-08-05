@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="sticky-top">
     <nav class="navbar navbar-expand-lg bgColor">
       <button
         class="navbar-toggler"
@@ -12,8 +12,8 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <!-- <a class="navbar-brand" href="/">Shamim</a> -->
+      <div class="collapse navbar-collapse mt-2 mb-2" id="navbarTogglerDemo01">
+        <!-- <img src="../assets/logo.png" className="logo" alt="brand" /> -->
         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#/">Home</a>
@@ -27,10 +27,13 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Achievement</a>
+            <a class="nav-link" href="#/achievement">Achievement</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#/project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#/project">Blog</a>
           </li>
         </ul>
       </div>
@@ -44,6 +47,10 @@ export default {
 </script>
 
 <style>
+.logo {
+  height: 78px;
+  width: 258px;
+}
 .bgColor {
   background-color: #122036;
 }
