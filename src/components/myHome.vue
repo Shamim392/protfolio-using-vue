@@ -2,6 +2,7 @@
   <myAbout />
   <myIntro />
   <mySkill />
+  <myAchievement />
   <myProjects />
 </template>
 
@@ -10,6 +11,7 @@ import myAbout from "./myAbout";
 import myIntro from "./myIntro";
 import mySkill from "./mySkill";
 import myProjects from "./myProjects";
+import myAchievement from "./myAchievement";
 
 export default {
   name: "myHome",
@@ -18,6 +20,7 @@ export default {
     myIntro,
     mySkill,
     myProjects,
+    myAchievement,
   },
 };
 </script>
