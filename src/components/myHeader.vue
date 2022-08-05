@@ -13,20 +13,24 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Shamim</a>
+        <!-- <a class="navbar-brand" href="/">Shamim</a> -->
         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#/about">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Skill</a>
+            <a class="nav-link" href="#/skill">Skill</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Achievement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#/project">Projects</a>
           </li>
         </ul>
       </div>
