@@ -17,7 +17,7 @@
           <!-- <img src="../assets/logo.png" className="logo" alt="brand" /> -->
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#/home">Home</a>
+              <a class="nav-link" href="#/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#/about">About</a>
