@@ -13,7 +13,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <!-- <img src="../assets/logo.png" className="logo" alt="brand" /> -->
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item active">
@@ -45,11 +45,7 @@ export default {
 };
 </script>
 
-<style>
-.logo {
-  height: 78px;
-  width: 258px;
-}
+<style scoped>
 .bgColor {
   background-color: #122036;
 }
@@ -63,6 +59,7 @@ export default {
 .nav-link {
   color: white !important;
   font-size: 20px !important;
+  margin-top: 7px;
 }
 
 .navbar-toggler-icon {
