@@ -20,8 +20,12 @@
             <a href="https://github.com/Shamim392">
               <button type="button" class="btn btn-success">Github-Link</button>
             </a>
-            <a href="https://github.com/Shamim392">
-              <button type="button" class="btn btn-success">Demo-Link</button>
+            <a
+              href="https://github.com/Shamim392/E-commerce-Management-System-Frontend-Backend"
+            >
+              <button type="button" class="btn btn-outline-success">
+                Demo-Link
+              </button>
             </a>
           </div>
         </div>
@@ -44,8 +48,10 @@
             <a href="https://github.com/Shamim392">
               <button type="button" class="btn btn-success">Github-Link</button>
             </a>
-            <a href="https://github.com/Shamim392">
-              <button type="button" class="btn btn-success">Demo-Link</button>
+            <a href="https://github.com/Shamim392/batabd-website-client-site">
+              <button type="button" class="btn btn-outline-success">
+                Demo-Link
+              </button>
             </a>
           </div>
         </div>
@@ -67,8 +73,10 @@
             <a href="https://github.com/Shamim392">
               <button type="button" class="btn btn-success">Github-Link</button>
             </a>
-            <a href="https://github.com/Shamim392">
-              <button type="button" class="btn btn-success">Demo-Link</button>
+            <a href="https://github.com/Shamim392/travel-tour-client-site">
+              <button type="button" class="btn btn-outline-success">
+                Demo-Link
+              </button>
             </a>
           </div>
         </div>
@@ -102,6 +110,9 @@ span {
   color: #00cf5d;
 }
 
+.card {
+  background-color: rgb(222, 239, 230);
+}
 .card-title {
   text-align: center;
   font-weight: bold;
