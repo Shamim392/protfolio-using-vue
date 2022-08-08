@@ -33,6 +33,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#/project">Projects</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#/footer">Contacts</a>
+            </li> -->
           </ul>
         </div>
       </div>

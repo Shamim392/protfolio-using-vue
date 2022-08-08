@@ -13,8 +13,8 @@ const routes = {
   "/": myHome,
   "/about": myIntro,
   "/skill": mySkill,
-  "/project": myProjects,
   "/achievement": myAchievement,
+  "/project": myProjects,
 };
 
 const currentPath = ref(window.location.hash);

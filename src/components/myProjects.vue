@@ -17,12 +17,12 @@
             </p>
           </div>
           <div class="card-body buttonDIv">
-            <button type="button" class="btn btn-success">
-              <a href="#" class="card-link">Github-Link</a>
-            </button>
-            <button type="button" class="btn btn-success">
-              <a href="#" class="card-link">Demo-Link</a>
-            </button>
+            <a href="https://github.com/Shamim392">
+              <button type="button" class="btn btn-success">Github-Link</button>
+            </a>
+            <a href="https://github.com/Shamim392">
+              <button type="button" class="btn btn-success">Demo-Link</button>
+            </a>
           </div>
         </div>
       </div>
@@ -41,12 +41,12 @@
             </p>
           </div>
           <div class="card-body buttonDIv">
-            <button type="button" class="btn btn-success">
-              <a href="#" class="card-link">Github-Link</a>
-            </button>
-            <button type="button" class="btn btn-success">
-              <a href="#" class="card-link">Demo-Link</a>
-            </button>
+            <a href="https://github.com/Shamim392">
+              <button type="button" class="btn btn-success">Github-Link</button>
+            </a>
+            <a href="https://github.com/Shamim392">
+              <button type="button" class="btn btn-success">Demo-Link</button>
+            </a>
           </div>
         </div>
       </div>
@@ -64,12 +64,12 @@
             </p>
           </div>
           <div class="card-body buttonDIv">
-            <button type="button" class="btn btn-success">
-              <a href="#" class="card-link">Github-Link</a>
-            </button>
-            <button type="button" class="btn btn-success">
-              <a href="#" class="card-link">Demo-Link</a>
-            </button>
+            <a href="https://github.com/Shamim392">
+              <button type="button" class="btn btn-success">Github-Link</button>
+            </a>
+            <a href="https://github.com/Shamim392">
+              <button type="button" class="btn btn-success">Demo-Link</button>
+            </a>
           </div>
         </div>
       </div>
@@ -102,10 +102,6 @@ span {
   color: #00cf5d;
 }
 
-.card {
-  padding-bottom: 5px;
-  margin-bottom: 20px;
-}
 .card-title {
   text-align: center;
   font-weight: bold;
@@ -113,7 +109,8 @@ span {
 .card-text {
   text-align: justify;
 }
-.card-body > .btn:not(:last-child) {
+
+.card-body > a:not(:last-child) {
   margin-right: 40px;
 }
 .card-link {
@@ -127,7 +124,8 @@ span {
     justify-content: space-between;
   }
   .card {
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: -55px;
   }
 }
 @media only screen and (max-width: 768px) {
